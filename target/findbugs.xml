@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<BugCollection version='3.0.1' threshold='low' effort='max'><Error></Error><Project><SrcDir>/home/codenvy-user/Documents/examples/ide-extension/src/main/java</SrcDir><SrcDir>/home/codenvy-user/Documents/examples/ide-extension/target/generated-sources/annotations</SrcDir><SrcDir>/home/codenvy-user/Documents/examples/ide-extension/src/test/java</SrcDir></Project></BugCollection>

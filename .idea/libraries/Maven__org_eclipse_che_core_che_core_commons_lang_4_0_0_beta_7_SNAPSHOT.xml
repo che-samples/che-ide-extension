@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.eclipse.che.core:che-core-commons-lang:4.0.0-beta-7-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/che/core/che-core-commons-lang/4.0.0-beta-7-SNAPSHOT/che-core-commons-lang-4.0.0-beta-7-20160108.224521-2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/che/core/che-core-commons-lang/4.0.0-beta-7-SNAPSHOT/che-core-commons-lang-4.0.0-beta-7-20160108.224521-2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/che/core/che-core-commons-lang/4.0.0-beta-7-SNAPSHOT/che-core-commons-lang-4.0.0-beta-7-20160108.224521-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

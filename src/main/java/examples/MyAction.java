@@ -35,10 +35,14 @@ public class MyAction extends Action {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        serviceClient.getHello("Che")
+        // This calls the service in the workspace.
+        // This method is in our MyServiceClient class
+        // This is a Promise, so the .then() method is invoked after the response is made
+        serviceClient.getHello("CheTheAllPowerful!")
                 .then(new Operation<String>() {
                     @Override
                     public void apply(String arg) throws OperationException {
+                        // This passes the response String from the method return to the notification manager.
                         notificationManager.notify(arg, StatusNotification.Status.SUCCESS, true);
                     }
                 })

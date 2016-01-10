@@ -22,19 +22,25 @@ import javax.inject.Named;
 
 
 public class MyServiceClient {
-    private final AsyncRequestFactory    asyncRequestFactory;
-    private final String                 helloPath;
+    private final AsyncRequestFactory asyncRequestFactory;
+    private final String helloPath;
     private final LoaderFactory loaderFactory;
 
     @Inject
     public MyServiceClient(@Named("cheExtensionPath") String extPath,
                            AsyncRequestFactory asyncRequestFactory,
-                           AppContext appContext, LoaderFactory loaderFactory) {
+                           AppContext appContext, 
+                           LoaderFactory loaderFactory) {
         this.asyncRequestFactory = asyncRequestFactory;
         this.loaderFactory = loaderFactory;
+
+        // extPath gets the relative path of Che app from the @Named DI in constructor
+        // appContext is a Che class that provides access to workspace
         helloPath = extPath + "/hello/" + appContext.getWorkspace().getId();
     }
 
+    // Invoked by our MyAction class
+    // Invokes the request to the server
     public Promise<String> getHello(String name) {
         return asyncRequestFactory.createGetRequest(helloPath + "/" + name)
                 .loader(loaderFactory.newLoader("Loading your response..."))

@@ -27,6 +27,12 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
+    <scm>
+        <connection>scm:git:git@github.com:che-samples/che-ide-extension.git</connection>
+        <developerConnection>scm:git:git@github.com:che-samples/che-ide-extension.git</developerConnection>
+        <tag>HEAD</tag>
+        <url>https://fisheye.codenvy.com/browse/maven-parent-pom</url>
+    </scm>
     <properties>
         <che.version>6.0.0-M4-SNAPSHOT</che.version>
     </properties>

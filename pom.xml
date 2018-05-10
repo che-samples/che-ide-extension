@@ -16,7 +16,7 @@
     </parent>
     <groupId>org.eclipse.che.sample</groupId>
     <artifactId>plugin-menu</artifactId>
-    <version>6.5.0-SNAPSHOT</version>
+    <version>6.5.0</version>
     <packaging>pom</packaging>
     <name>Menu Sample :: Parent pom</name>
     <url>https://www.eclipse.org/che/</url>
@@ -30,7 +30,7 @@
     <scm>
         <connection>scm:git:git@github.com:che-samples/che-ide-extension.git</connection>
         <developerConnection>scm:git:git@github.com:che-samples/che-ide-extension.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>6.5.0</tag>
         <url>https://fisheye.codenvy.com/browse/maven-parent-pom</url>
     </scm>
     <properties>

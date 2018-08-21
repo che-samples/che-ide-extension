@@ -36,7 +36,7 @@
         <url>https://fisheye.codenvy.com/browse/maven-parent-pom</url>
     </scm>
     <properties>
-        <che.version>6.10.0-SNAPSHOT</che.version>
+        <che.version>6.10.0</che.version>
     </properties>
     <dependencyManagement>
         <dependencies>

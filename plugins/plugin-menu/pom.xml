@@ -14,7 +14,7 @@
     <parent>
         <artifactId>plugin-parent</artifactId>
         <groupId>org.eclipse.che.sample</groupId>
-        <version>6.13.0</version>
+        <version>6.13.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>plugin-menu-parent</artifactId>

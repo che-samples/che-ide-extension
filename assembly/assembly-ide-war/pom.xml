@@ -14,7 +14,7 @@
     <parent>
         <artifactId>plugin-menu-assembly-parent</artifactId>
         <groupId>org.eclipse.che.sample</groupId>
-        <version>6.17.0</version>
+        <version>6.17.1-SNAPSHOT</version>
     </parent>
     <artifactId>assembly-ide-war</artifactId>
     <packaging>war</packaging>
